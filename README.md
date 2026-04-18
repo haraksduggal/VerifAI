@@ -14,8 +14,8 @@
 
 # 🧬 VERIFAI // AUTHENTICATION PROTOCOL
 
+SYSTEM PURPOSE:
 ```diff
-+ SYSTEM PURPOSE:
 + Detect counterfeit products using one-time cryptographic QR validation
 ```
 
