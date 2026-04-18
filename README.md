@@ -12,7 +12,8 @@
 
 ---
 
-# 🧬 VERIFAI // AUTHENTICATION PROTOCOL
+# 🧬 VERIFAI // AUTHENTICATION PROTOCOL 
+Live: https://verificationai.netlify.app
 
 SYSTEM PURPOSE:
 ```diff
