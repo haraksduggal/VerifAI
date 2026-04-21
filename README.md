@@ -12,10 +12,12 @@
 
 ---
 
-# 🧬 VERIFAI // AUTHENTICATION PROTOCOL 
-Live: https://verificationai.netlify.app
+# 🧬 VERIFAI // AUTHENTICATION PROTOCOL
+
+Live: https://verif-ai-upgrade.vercel.app
 
 SYSTEM PURPOSE:
+
 ```diff
 + Detect counterfeit products using one-time cryptographic QR validation
 ```
@@ -25,6 +27,7 @@ SYSTEM PURPOSE:
 ## ⚡ SYSTEM MODULES
 
 ### 🧿 QR GENERATION ENGINE
+
 ```bash
 > Generate unique token
 > Attach product metadata
@@ -33,6 +36,7 @@ SYSTEM PURPOSE:
 ```
 
 ### 🔐 ONE-TIME VALIDATION CORE
+
 ```diff
 + FIRST SCAN      → AUTHENTIC ✅
 - SECOND SCAN     → FRAUD ALERT 🚫
@@ -42,6 +46,7 @@ SYSTEM PURPOSE:
 > Each QR self-destructs after first verification
 
 ### 📡 PRODUCT REGISTRY (SIMULATED DB)
+
 ```bash
 > Track lifecycle states
 > ACTIVE | SCANNED | EXPIRED
@@ -49,6 +54,7 @@ SYSTEM PURPOSE:
 ```
 
 ### 🛰️ CONSUMER VERIFY TERMINAL
+
 ```bash
 > Input Token ID
 > Run validation checks:
