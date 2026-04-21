@@ -1,60 +1,140 @@
-# VerifAI — Anti-Counterfeit QR Platform
+<!-- 🔥 VERIFAI DARK NEON README -->
 
-AI-powered product authentication for India's FMCG supply chain.  
-Scan once to verify. QR dies after that. Counterfeiting stops being profitable.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=2500&pause=700&color=00F0A0&center=true&vCenter=true&width=900&lines=VERIFAI+SYSTEM+INITIALIZING...;SECURE+QR+AUTHENTICATION;ANTI-COUNTERFEIT+PROTOCOL+ACTIVE;SCAN+ONCE+→+TRUST+FOREVER" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-LIVE-00f0a0?style=for-the-badge&logo=vercel&logoColor=black"/>
+  <img src="https://img.shields.io/badge/SECURITY-PKI_SIMULATION-00f0a0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/BUILD-JAVASCRIPT_CORE-0a0f1c?style=for-the-badge"/>
+</p>
 
 ---
 
-## Setup & Run
+# 🧬 VERIFAI // AUTHENTICATION PROTOCOL
 
-```bash
-# 1. Install dependencies (requires Node 18+)
-npm install
+Live: https://verificationai.netlify.app
 
-# 2. Start dev server
-npm run dev
+SYSTEM PURPOSE:
+
+```diff
++ Detect counterfeit products using one-time cryptographic QR validation
 ```
 
-Then open **http://localhost:5173** in your browser.
+---
 
-> ⚠️ If you see "Page Not Found" — make sure you open the URL that Vite prints
-> in the terminal (usually http://localhost:5173), **not** a file:// path.
-> Do NOT open index.html directly in the browser.
+## ⚡ SYSTEM MODULES
+
+### 🧿 QR GENERATION ENGINE
+
+```bash
+> Generate unique token
+> Attach product metadata
+> Inject signature hash
+> Encode into QR payload
+```
+
+### 🔐 ONE-TIME VALIDATION CORE
+
+```diff
++ FIRST SCAN      → AUTHENTIC ✅
+- SECOND SCAN     → FRAUD ALERT 🚫
+! EXPIRED TOKEN   → INVALID ⏰
+```
+
+> Each QR self-destructs after first verification
+
+### 📡 PRODUCT REGISTRY (SIMULATED DB)
+
+```bash
+> Track lifecycle states
+> ACTIVE | SCANNED | EXPIRED
+> Real-time UI sync
+```
+
+### 🛰️ CONSUMER VERIFY TERMINAL
+
+```bash
+> Input Token ID
+> Run validation checks:
+    - existence
+    - expiry
+    - scan history
+> Output trust signal
+```
 
 ---
 
-## Routes
+## 🧠 CORE ARCHITECTURE
 
-| URL | Description |
-|-----|-------------|
-| `/` | Hero landing — scroll-driven 4-scene animation |
-| `/app` | Dashboard — Generate, Verify, Database tabs |
-
----
-
-## Tech Stack
-
-- **React 18** + Vite
-- **GSAP** + ScrollTrigger — all scroll animations
-- **Three.js** via @react-three/fiber — QR shatter particle effect (Scene 3)
-- **qrcode** — real scannable QR code generation
-- **jsQR** — camera-based QR scanning
-- **React Router v6** — client-side routing
-- **localStorage** — all data, no backend required
-- Plain CSS only — zero Tailwind
+```mermaid
+flowchart TD
+A[INIT PRODUCT] --> B[GENERATE TOKEN]
+B --> C[SIGN DATA]
+C --> D[CREATE QR]
+D --> E[SCAN INPUT]
+E --> F{VALIDATION}
+F -->|VALID| G[AUTHENTIC]
+F -->|EXPIRED| H[REJECTED]
+F -->|USED| I[FRAUD ALERT]
+```
 
 ---
 
-## Troubleshooting
+## 🧰 TECH STACK
 
-**Page not found / blank page**
-- Run `npm install` first, then `npm run dev`
-- Open http://localhost:5173 exactly as shown in terminal
+```bash
+Frontend   :: HTML + CSS (Glass UI)
+Core Logic :: Vanilla JavaScript
+QR Engine  :: qrcode.js
+Storage    :: In-memory object
+Security   :: Simulated PKI signature
+```
 
-**Camera not working in Verify tab**
-- Camera requires HTTPS or localhost — works fine on `npm run dev`
-- Allow camera permissions when browser prompts
+---
 
-**QR shatter scene shows fallback / loading**
-- Three.js is lazy-loaded — give it 1–2 seconds on first scroll to Scene 3
-- If it stays as fallback, check browser console for WebGL errors
+## 🚀 EXECUTION
+
+```bash
+git clone https://github.com/your-username/verifai.git
+cd verifai
+open verifai-prototype.html
+```
+
+---
+
+## 🧪 SYSTEM LIMITATIONS
+
+```diff
+- No persistent backend
+- Signature not cryptographically verified
+- No camera-based QR scanning
+```
+
+---
+
+## 🔮 NEXT EVOLUTION
+
+```diff
++ Blockchain-backed registry
++ Real PKI encryption
++ Mobile scan integration
++ Cloud database
++ Fraud analytics engine
+```
+
+---
+
+## 👤 AUTHOR NODE
+
+```bash
+Haraks Kaur Duggal
+Harpreet Singh
+```
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0a0,100:0a0f1c&height=120&section=footer"/>
+</p>
