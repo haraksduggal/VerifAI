@@ -14,7 +14,7 @@
 
 # 🧬 VERIFAI // AUTHENTICATION PROTOCOL
 
-Live: https://verificationai.netlify.app
+Live: https://verif-ai-upgrade.vercel.app
 
 SYSTEM PURPOSE:
 
